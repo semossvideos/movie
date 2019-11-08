@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<subClassOf xmlns="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<IsPrimKey xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IsPrimKey>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__MOVIE">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__MOVIE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__MOVIE">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">MOVIE</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Audience">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Audience"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Audience">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__RottenTomatoes_Audience</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">RottenTomatoes_Audience</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Rating">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Rating"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Rating">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Rating</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Rating</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Director">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Director"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Director">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Director</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Director</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__MovieBudget">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__MovieBudget"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__MovieBudget">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__MovieBudget</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">MovieBudget</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Title">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Title"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Title">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Title</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Title</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseDate">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseDate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseDate">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__ReleaseDate</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">ReleaseDate</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DATE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_International">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_International"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_International">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Revenue_International</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Revenue_International</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Studio">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Studio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Studio">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Studio</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Studio</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Metacritic_Score">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Metacritic_Score"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Metacritic_Score">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Metacritic_Score</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Metacritic_Score</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Nominated">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Nominated"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Nominated">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Nominated</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Nominated</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Producer">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Producer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Producer">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Producer</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Producer</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__IMDBScore">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__IMDBScore"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__IMDBScore">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__IMDBScore</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">IMDBScore</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Critics">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Critics"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__RottenTomatoes_Critics">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__RottenTomatoes_Critics</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">RottenTomatoes_Critics</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">DOUBLE</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_Domestic">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_Domestic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Revenue_Domestic">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Revenue_Domestic</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Revenue_Domestic</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Genre">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__Genre"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__Genre">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__Genre</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">Genre</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">STRING</DatatypeProperty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseMonth">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/FRAME">
+	<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseMonth"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/FRAME__ReleaseMonth">
+	<QueryStructName xmlns="http://semoss.org/ontologies/Relation/Contains/">814690f1-ea53-4179-a526-494d9431def7:::MOVIE__ReleaseMonth</QueryStructName>
+	<IsDerived xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IsDerived>
+	<Alias xmlns="http://semoss.org/ontologies/Relation/Contains/">ReleaseMonth</Alias>
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">INT</DatatypeProperty>
+</rdf:Description>
+
+</rdf:RDF>
